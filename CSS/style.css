@@ -1,0 +1,222 @@
+body {
+  font-family: Roboto;
+  font-style: normal;
+}
+
+:root {
+  --tittle-color: #212121;
+  --text: #757575;
+  --text-tittle-background: #ffffff;
+  --hover-background: #2196f3;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: #0000000;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.nav-menu a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--tittle-color);
+}
+.nav-menu-link:hover {
+  color: var(--hover-background);
+}
+.nav-menu-link:focus {
+  color: var(--hover-background);
+}
+.adress-link a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text);
+}
+.hero-section {
+  background-color: blue;
+}
+.hero-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tittle-background);
+}
+.hero-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  /* display: flex; пока не применяем  */
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-tittle-background);
+}
+.list-item-feature h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--tittle-color);
+}
+.list-item-feature p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
+.section-tittle {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-color);
+}
+.section-whatdoing-subtittle h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-tittle-background);
+  /* background чтобы было видно текст  */
+  background-color: antiquewhite;
+}
+.section-comand-item h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--tittle-color);
+}
+.section-comand-item p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
+footer {
+  background-color: #2f303a;
+}
+.footer-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+  color: var(--text-tittle-background);
+}
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.logo-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  color: var(--text-tittle-background);
+}
+.footer-tittle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-tittle-background);
+}
+.footer-copyright {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  /* or 200% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* стили portfolio main */
+
+/* сделал через li и потом a потому что если только через ли то по центру 
+но остается цвет ссылок, а если только через "а", то не центруется */
+.main-nav-item li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.main-nav-item a {
+  color: var(--tittle-color);
+}
+.portfolio-main-tittle h2 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+  color: var(--tittle-color);
+}
+.portfolio-main-tittle p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+  color: var(--text);
+}
