@@ -3,6 +3,18 @@ body {
   font-style: normal;
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Остальной код */
+
 :root {
   --tittle-color: #212121;
   --text: #757575;
@@ -17,10 +29,9 @@ body {
   font-size: 26px;
   line-height: 31px;
   /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: #0000000;
+  color: #000000;
+  display: flex;
+  align-items: center;
 }
 
 .logo-web {
@@ -40,12 +51,46 @@ li {
   letter-spacing: 0.02em;
   color: var(--tittle-color);
 }
+.nav-menu-flex, 
+.nav-menu-adress, 
+.nav-menu-flex-main, .nav-menu {
+  display: flex;
+}
+.nav-menu-flex li {
+  outline: 2px solid aqua;
+  
+}
+.nav-menu-flex {
+  margin-left: 70px;
+}
+
+.adress-link {
+margin-left: auto;
+}
+.nav-menu-item:not(:last-child){
+  margin-right: 20px;
+}
 .nav-menu-link:hover {
   color: var(--hover-background);
 }
 .nav-menu-link:focus {
   color: var(--hover-background);
 }
+
+.nav-menu-item .nav-menu-link-height, .nav-menu-adress-item .nav-menu-link-height {
+  display: block;
+  line-height: 60px;
+}
+
+
+.nav-menu-adress-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.nav-menu-flex-main {
+  align-items: center;
+}
+
 .adress-link a {
   font-style: normal;
   font-weight: 500;
@@ -81,6 +126,14 @@ li {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--text-tittle-background);
+  width: 200;
+  height: 50;
+  padding-top: 10px
+  padding-bottom:10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  
+
 }
 .list-item-feature h3 {
   font-weight: bold;
