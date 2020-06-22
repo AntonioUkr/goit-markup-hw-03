@@ -89,6 +89,11 @@ margin-left: auto;
 
 .nav-menu-flex-main {
   align-items: center;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .adress-link a {
@@ -98,6 +103,16 @@ margin-left: auto;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--text);
+}
+
+
+/* секция героя */
+.conteiner-hero-section {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-section {
   background-color: blue;
@@ -135,6 +150,27 @@ margin-left: auto;
   
 
 }
+
+/* секция чем мы занимаемся */
+.conteiner-future-section {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list-item-future-flex {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 94px;
+  
+}
+.list-item-future-block {
+  width: 270px;
+}
+.list-item-future-block:not(:last-child) {
+  margin-right: 30px;
+}
 .list-item-feature h3 {
   font-weight: bold;
   font-size: 14px;
@@ -160,6 +196,16 @@ margin-left: auto;
   letter-spacing: 0.03em;
   color: var(--tittle-color);
 }
+
+/* секция чем мы занимаемся */
+.conteiner-competencies {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
 .section-whatdoing-subtittle h3 {
   font-weight: bold;
   font-size: 14px;
@@ -170,6 +216,15 @@ margin-left: auto;
   color: var(--text-tittle-background);
   /* background чтобы было видно текст  */
   background-color: antiquewhite;
+}
+
+/* секция наша команда */
+.conteiner-ourcommands {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .section-comand-item h3 {
   font-weight: 500;
@@ -191,8 +246,27 @@ margin-left: auto;
   letter-spacing: 0.03em;
   color: var(--text);
 }
+
+/* постоянный клиенты */
+.conteiner-ourclient {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer */
 footer {
   background-color: #2f303a;
+}
+.conteiner-footer {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 .footer-adress {
   font-family: Roboto;
@@ -254,6 +328,20 @@ footer {
 }
 .main-nav-item a {
   color: var(--tittle-color);
+}
+.portfolio-conteiner {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  width: 370px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .portfolio-main-tittle h2 {
   font-weight: bold;
