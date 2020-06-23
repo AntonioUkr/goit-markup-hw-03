@@ -99,7 +99,6 @@ li {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 94px;
 }
 
 .adress-link a {
@@ -233,6 +232,12 @@ li {
   /* background чтобы было видно текст  */
   background-color: antiquewhite;
 }
+.section-whatdoing-subtittle {
+  display: flex;
+}
+.section-whatdoing-item {
+  width: calc((100%-30px * 2) / 3);
+}
 
 /* секция наша команда */
 .conteiner-ourcommands {
@@ -242,8 +247,9 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
-.section-comand-item h3 {
+.section-comand-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -253,7 +259,7 @@ li {
   letter-spacing: 0.03em;
   color: var(--tittle-color);
 }
-.section-comand-item p {
+.section-comand-list p {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
@@ -262,6 +268,9 @@ li {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text);
+}
+.section-comand-list {
+  display: flex;
 }
 
 /* постоянный клиенты */
@@ -297,6 +306,7 @@ footer {
   background-color: #2f303a;
 }
 .conteiner-footer {
+  display: flex;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
