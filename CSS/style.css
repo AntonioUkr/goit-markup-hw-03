@@ -281,6 +281,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .ourlient-list {
   display: flex;
@@ -289,6 +290,7 @@ li {
 .ourclients-flex-item {
   width: 170px;
   height: 90px;
+  border: solid red;
 }
 
 /* попытка центрирования изображения */
@@ -307,11 +309,20 @@ footer {
 }
 .conteiner-footer {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 1200px;
+  height: 252px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+.footer-link-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 72px;
+  margin-left: 69px;
 }
 .footer-adress {
   font-family: Roboto;
@@ -337,6 +348,7 @@ footer {
 
   letter-spacing: 0.03em;
   color: var(--text-tittle-background);
+  margin-bottom: 20px;
 }
 .footer-tittle {
   font-weight: bold;
