@@ -16,31 +16,33 @@
   <body>
     <!-- Шапка сайта -->
     <header>
-      <nav class="nav-menu">
-        <p class="logo"><span class="logo-web">Web</span> Studio</p>
-        <ul>
-          <li>
-            <a class="nav-menu-link" href="./index.html">Студия</a>
-          </li>
-          <li>
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li>
-            <a href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="nav-menu-flex-main">
+        <nav class="nav-menu">
+          <p class="logo"><span class="logo-web">Web</span> Studio</p>
+          <ul>
+            <li>
+              <a class="nav-menu-link" href="./index.html">Студия</a>
+            </li>
+            <li>
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <address class="adress-link">
+          <ul>
+            <li>
+              <a class="nav-menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
 
-      <address class="adress-link">
-        <ul>
-          <li>
-            <a class="nav-menu-link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+      </div>
+      
     </header>
 
     <!-- основной блок портфолио -->
@@ -68,6 +70,7 @@
 
         <!-- блок с примерами работ -->
         <section>
+
           <ul class="portfolio-main-tittle portfolio-list">
             <li class="portfolio-item">
               <a href=""
@@ -164,48 +167,48 @@
 
     <!-- Footer -->
     <footer>
-      <!-- можно было все 3 p сделать заголовками h3 и в список -->
-
-      <div>
-        <p class="logo-footer"><span class="logo-web">Web</span> Studio</p>
-
-        <address class="footer-adress">
+      <div class="conteiner-footer">
+        <div>
+          <p class="logo-footer"><span class="logo-web">Web</span> Studio</p>
+        
+          <address class="footer-adress">
+            <ul>
+              <li>
+                <p>г. Киев, пр-т Леси Украинки, 26</p>
+              </li>
+              <li>
+                <a class="link-footer" href="mailto:info@example.com">info@example.com</a>
+              </li>
+              <li>
+                <a class="link-footer" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        
+        <div>
+          <p class="footer-tittle">присоединяйтесь</p>
           <ul>
-            <li>
-              <p>г. Киев, пр-т Леси Украинки, 26</p>
-            </li>
-            <li>
-              <a class="link-footer" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li>
-              <a class="link-footer" href="tel:+38 099 111 11 11"
-                >+38 099 111 11 11</a
-              >
-            </li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">LinkedIn</a></li>
           </ul>
-        </address>
+        </div>
+        
+        <!-- Поле форма убрал пока не делаем -->
+        <div>
+          <p class="footer-tittle">Подпишитесь на рассылку</p>
+        </div>
+        
+        <div>
+          <p class="footer-copyright">2020 | Developed by GoIT Students</p>
+        </div>
+
       </div>
 
-      <div>
-        <p class="footer-tittle">присоединяйтесь</p>
-        <ul>
-          <li><a href="">Instagram</a></li>
-          <li><a href="">Twitter</a></li>
-          <li><a href="">Facebook</a></li>
-          <li><a href="">LinkedIn</a></li>
-        </ul>
-      </div>
 
-      <!-- Поле форма убрал пока не делаем -->
-      <div>
-        <p class="footer-tittle">Подпишитесь на рассылку</p>
-      </div>
-
-      <div>
-        <p class="footer-copyright">2020 | Developed by GoIT Students</p>
-      </div>
+      
     </footer>
   </body>
 </html>

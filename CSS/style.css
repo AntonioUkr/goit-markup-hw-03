@@ -13,6 +13,11 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Остальной код */
 
 :root {
@@ -51,24 +56,24 @@ li {
   letter-spacing: 0.02em;
   color: var(--tittle-color);
 }
-.nav-menu-flex, 
-.nav-menu-adress, 
-.nav-menu-flex-main, .nav-menu {
+.nav-menu-flex,
+.nav-menu-adress,
+.nav-menu-flex-main,
+.nav-menu {
   display: flex;
 }
 .nav-menu-flex li {
-  outline: 2px solid aqua;
-  
+  /* outline: 2px solid aqua; */
 }
 .nav-menu-flex {
-  margin-left: 70px;
+  margin-left: 85px;
 }
 
 .adress-link {
-margin-left: auto;
+  margin-left: auto;
 }
-.nav-menu-item:not(:last-child){
-  margin-right: 20px;
+.nav-menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-menu-link:hover {
   color: var(--hover-background);
@@ -77,14 +82,14 @@ margin-left: auto;
   color: var(--hover-background);
 }
 
-.nav-menu-item .nav-menu-link-height, .nav-menu-adress-item .nav-menu-link-height {
+.nav-menu-item .nav-menu-link-height,
+.nav-menu-adress-item .nav-menu-link-height {
   display: block;
-  line-height: 60px;
+  line-height: 80px;
 }
 
-
 .nav-menu-adress-item:not(:last-child) {
-  margin-right: 15px;
+  margin-right: 30px;
 }
 
 .nav-menu-flex-main {
@@ -94,6 +99,7 @@ margin-left: auto;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 94px;
 }
 
 .adress-link a {
@@ -105,7 +111,6 @@ margin-left: auto;
   color: var(--text);
 }
 
-
 /* секция героя */
 .conteiner-hero-section {
   width: 1200px;
@@ -113,9 +118,13 @@ margin-left: auto;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 94px;
 }
 .hero-section {
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  background-color: aqua;
+  height: 600px;
 }
 .hero-tittle {
   font-family: Roboto;
@@ -129,8 +138,13 @@ margin-left: auto;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-tittle-background);
+  margin-bottom: 30px;
 }
 .hero-button {
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
@@ -139,16 +153,17 @@ margin-left: auto;
   /* display: flex; пока не применяем  */
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  /* letter-spacing: 0.06em; */
   color: var(--text-tittle-background);
-  width: 200;
-  height: 50;
-  padding-top: 10px
-  padding-bottom:10px;
+  width: 200px;
+  height: 50px;
+
   padding-left: 32px;
   padding-right: 32px;
-  
-
+  border-radius: 4px;
+  background-color: #2196f3;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* секция чем мы занимаемся */
@@ -158,12 +173,12 @@ margin-left: auto;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
 }
 .list-item-future-flex {
   display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
-  
 }
 .list-item-future-block {
   width: 270px;
@@ -195,6 +210,7 @@ margin-left: auto;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--tittle-color);
+  margin-bottom: 50px;
 }
 
 /* секция чем мы занимаемся */
@@ -204,7 +220,7 @@ margin-left: auto;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  
+  padding-bottom: 94px;
 }
 .section-whatdoing-subtittle h3 {
   font-weight: bold;
@@ -225,6 +241,7 @@ margin-left: auto;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
 }
 .section-comand-item h3 {
   font-weight: 500;
@@ -254,8 +271,27 @@ margin-left: auto;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 94px;
+}
+.ourlient-list {
+  display: flex;
+  margin-top: 50px;
+}
+.ourclients-flex-item {
+  width: 170px;
+  height: 90px;
 }
 
+/* попытка центрирования изображения */
+.ourclients-flex-item-img {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ourclients-flex-item:not(:last-child) {
+  margin-right: 30px;
+}
 /* footer */
 footer {
   background-color: #2f303a;
@@ -266,7 +302,6 @@ footer {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  
 }
 .footer-adress {
   font-family: Roboto;
@@ -333,6 +368,9 @@ footer {
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
 }
 .portfolio-list {
   display: flex;
