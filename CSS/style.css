@@ -180,10 +180,23 @@ li {
   padding-bottom: 94px;
 }
 .list-item-future-block {
-  width: 270px;
+  width: calc((100%-30px * 3) / 4);
 }
 .list-item-future-block:not(:last-child) {
   margin-right: 30px;
+}
+.future-image-border {
+  /* border: 1px solid grey; */
+  border-radius: 4px;
+  background: #f5f4fa;
+  width: 100%;
+  height: 120px;
+}
+.future-image-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
 }
 .list-item-feature h3 {
   font-weight: bold;
@@ -192,6 +205,9 @@ li {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--tittle-color);
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .list-item-feature p {
   font-weight: 400;
