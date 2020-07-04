@@ -122,7 +122,7 @@ li {
 .hero-section {
   display: flex;
   align-items: center;
-  background-color: aqua;
+  background-color: grey;
   height: 600px;
 }
 .hero-tittle {
@@ -336,6 +336,23 @@ li {
 }
 .section-comand-social-link-item:not(:last-child) {
   margin-right: 10px;
+}
+
+.ourcommand-social-link-button {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+
+  border-radius: 22px;
+  /* background-color: hotpink; */
+}
+.ourcommand-social-link-button p {
+  line-height: 44px;
+}
+
+.ourcommand-social-link-button:hover {
+  background-color: var(--hover-background);
 }
 
 /* постоянный клиенты */
